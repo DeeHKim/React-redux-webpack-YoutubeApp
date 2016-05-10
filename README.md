@@ -3,8 +3,12 @@ A simple youtube video player built using Reactjs, redux, webpack, axios, and yo
 
 #### Dependencies and Running
 ~~~~
-npm install
-grab a youtube API key from https://developers.google.com/youtube/v3/docs/search/list and paste into src/components/config/youtube.js
-run '$ webpack' from root directory in terminal
-open /index.html directly in your browser preferably chrome.
+-npm install
+-grab a youtube API key from https://developers.google.com/youtube/v3/docs/search/list and paste into src/components/config/youtube.js
+-make a .babelrc file in root directory and paste:
+{
+  "presets": ["es2015", "stage-0", "react"]
+}
+-run '$ webpack' from root directory in terminal
+-open /index.html directly in your browser preferably chrome.
 ~~~~

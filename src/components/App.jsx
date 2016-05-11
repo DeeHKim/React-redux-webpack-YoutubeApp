@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {connect} from 'react-redux';
 
-import searchYouTube from '../lib/searchYouTube.js';
 import Nav from './Nav.jsx';
 import VideoList from './VideoList.jsx';
 import VideoPlayer from './VideoPlayer.jsx';

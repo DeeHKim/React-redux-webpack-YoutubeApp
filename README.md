@@ -1,6 +1,9 @@
 # React-redux-webpack-YoutubeApp
 A simple youtube video player built using Reactjs, redux, webpack, axios, and youtube API.
 
+Showcasing how to manage state effectively using redux, and packaging everything together using webpack.
+React app is built with es6 class component style, with JSX.
+
 #### Dependencies and Running
 ~~~~
 -npm install
